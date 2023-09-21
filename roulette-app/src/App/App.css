@@ -101,3 +101,10 @@ input {
   border-radius: 5px;
   cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+  .app-form {
+    width: 90%;
+    height: 400px;
+  }
+}
