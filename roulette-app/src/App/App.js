@@ -92,7 +92,7 @@ function App() {
         </div>
       )}
     </main>
-    <footer className="app-footer">
+      <footer className="app-footer">
         <p className='reserved'><strong>Alienígenas Productora y Agencia Creativa 2023 &copy; All Rights Reserved</strong></p>
       </footer>
     </div>

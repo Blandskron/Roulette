@@ -73,11 +73,11 @@ input {
   padding: 10px;
   border-radius: 5px;
   margin: 15px;
+  cursor: pointer;
 }
 
 /* Estilos para el pie de página (footer) */
 .app-footer {
-  position: fixed;
   bottom: 0;
   left: 0;
   right: 0;
@@ -99,5 +99,5 @@ input {
   color: #fff;
   padding: 10px;
   border-radius: 5px;
-  margin-left: 700px;
+  cursor: pointer;
 }
