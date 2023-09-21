@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Estilos para el encabezado (header) */
+.app-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 5px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.container-roulette {
+  width: 100%;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.roulette-section {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+
+h2 {
   color: white;
+  margin-top: 20px;
+  font-size: 3rem;
+  text-align:center;
 }
 
-.App-link {
-  color: #61dafb;
+.app-form {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #C31E3A;
+  border: 5px solid #66CFE3;
+  border-radius: 10px;
+  width: 40%;
+  height: 400px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%;
+}
+
+input {
+  background-color: #D9D9D9;
+  border: none;
+  margin: 5px;
+  margin-top: 10px;
+  width: 100%;
+  height: 20px;
+  border-radius: 5px;
+  padding: 5px;
+}
+
+.form-button {
+  background-color: #FF5500;
+  border: 2px solid #ffffff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 15px;
+}
+
+/* Estilos para el pie de página (footer) */
+.app-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.imgLogo {
+  width : 70px;
+  margin: 5px;
+}
+
+.button-back {
+  background-color: #4B4E53;
+  border: 2px solid #ffffff;
+  color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+  margin-left: 700px;
 }
